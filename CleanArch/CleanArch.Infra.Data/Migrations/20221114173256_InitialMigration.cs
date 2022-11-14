@@ -22,6 +22,12 @@ namespace CleanArch.Infra.Data.Migrations
                 {
                     table.PrimaryKey("PK_Courses", x => x.Id);
                 });
+
+            migrationBuilder.Sql(@"INSERT INTO Courses (Name, Description, ImageUrl)
+                  VALUES ('Physics', 'Introduction to Physics', '/images/physics.JPG'),
+                         ('Mathematics', 'Introduction to Mathematics', '/images/math.JPG'),
+                         ('Chemestry', 'Introduction to Chemestry', '/images/chemestry.JPG')");
+
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

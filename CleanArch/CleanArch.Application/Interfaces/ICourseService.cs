@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Application.Interfaces
 {
-    public interface ICourseInterface
+    public interface ICourseService
     {
         CourseViewModel GetCourses();
     }

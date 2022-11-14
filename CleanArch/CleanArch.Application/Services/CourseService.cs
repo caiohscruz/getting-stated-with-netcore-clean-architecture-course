@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Application.Services
 {
-    public class CourseService : ICourseInterface
+    public class CourseService : ICourseService
     {
         private readonly ICourseRepository _courseRepository;
 
