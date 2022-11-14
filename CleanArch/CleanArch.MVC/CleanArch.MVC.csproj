@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-CleanArc.MVC-75AD69C1-CAFA-4ABE-AFAF-7914E60D61F9</UserSecretsId>
+    <UserSecretsId>aspnet-CleanArch.MVC-6DE666B7-CB80-4961-B716-8481ED2DCE01</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

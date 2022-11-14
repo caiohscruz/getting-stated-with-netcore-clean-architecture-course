@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CleanArc.MVC.Data.Migrations
+namespace CleanArch.MVC.Data.Migrations
 {
     public partial class InitialMigration : Migration
     {
